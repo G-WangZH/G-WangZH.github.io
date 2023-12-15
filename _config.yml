@@ -1,10 +1,10 @@
 # Site settings
-title: BY Blog
-SEOTitle: sea的博客 | BY Blog
+title: sea Blog
+SEOTitle: sea的博客 | sea Blog
 header-img: img/post-bg-desk.jpg
 email: wangzhenhaichn@hotmail.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, sea的博客, sea, web, Apple, iPhone"
+keyword: "sea, sea Blog, sea的博客, sea, web, Apple, iPhone"
 url: "http://qiubaiying.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/G-WangZH/G-WangZH.github.io.git" # you code repository
@@ -102,7 +102,7 @@ service-worker: true
 #         title: "WY",
 #         href: "http://zhengwuyang.com"
 #     },{
-#         title: "简书·BY",
+#         title: "简书·sea",
 #         href: "http://www.jianshu.com/u/e71990ada2fd"
 #     },{
 #         title: "Apple",
