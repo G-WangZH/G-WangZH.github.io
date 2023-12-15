@@ -1,10 +1,10 @@
 # Site settings
-title: sea Blog
-SEOTitle: sea的博客 | sea Blog
+title: WangZH Blog
+SEOTitle: WangZH的博客 | WangZH Blog
 header-img: img/post-bg-desk.jpg
 email: wangzhenhaichn@hotmail.com
 description: "Every failure is leading towards success."
-keyword: "sea, sea Blog, sea的博客, sea, web, Apple, iPhone"
+keyword: "WangZH, WangZH Blog, WangZH的博客, WangZH, web, Apple, iPhone"
 url: "http://qiubaiying.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/G-WangZH/G-WangZH.github.io.git" # you code repository
@@ -12,7 +12,7 @@ github_repo: "https://github.com/G-WangZH/G-WangZH.github.io.git" # you code rep
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/沙滩.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar_m.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -86,7 +86,7 @@ kramdown:
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
 
 
 
@@ -112,3 +112,30 @@ service-worker: true
 #         href: "https://developer.apple.com/"
 #     }
 # ]
+  comments:
+    enable: true
+    # 指定的插件，需要同时设置对应插件的必要参数
+    # The specified plugin needs to set the necessary parameters at the same time
+    # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
+    type: valine
+
+# Valine
+# 基于 LeanCloud
+# Based on LeanCloud
+# See: https://valine.js.org/
+valine:
+  appId: 0i3XZpHoTzVACA628mkDPqF4-gzGzoHsz
+  appKey: H5njNHvj8yMjjeHYo0eCIUG4
+  path: window.location.pathname
+  placeholder:
+  avatar: 'retro'
+  meta: ['nick', 'mail', 'link']
+  requiredFields: []
+  pageSize: 10
+  lang: 'zh-CN'
+  highlight: false
+  recordIP: false
+  serverURLs: ''
+  emojiCDN:
+  emojiMaps:
+  enableQQ: false
